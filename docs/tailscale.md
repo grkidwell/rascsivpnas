@@ -3,7 +3,7 @@
 
 ##  Install
 
-After creating a [tailscale](www.tailscale.com) account, follow the [Raspberry Pi Bullseye
+After creating a [tailscale](https://www.tailscale.com) account, follow the [Raspberry Pi Bullseye
 download instructions](https://tailscale.com/download/linux/rpi-bullseye)
 
 ![screenshot](img/tailscale1.png)
