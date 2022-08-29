@@ -15,6 +15,4 @@ https://grkidwell.github.io/rascsivpnas
 
 4. Samba linux fileserver
 
-5. On the mac, install software
-
-6. References
+5. References

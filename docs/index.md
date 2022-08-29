@@ -15,9 +15,7 @@ The repository for these instructions is located at [github rascsiwifi](https://
 
 4. Samba linux fileserver
 
-5. On the mac, install software
-
-6. References
+5. References
 
 
 

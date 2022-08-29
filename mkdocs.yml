@@ -1,4 +1,4 @@
-site_name: raSCSI VPN Network Attached Storage
+site_name: RaSCSI VPN Network Attached Storage
 site_url: https://example.com/
 theme:
     name: readthedocs
@@ -8,7 +8,6 @@ nav:
     - Netatalk: netatalk.md
     - Tailscale: tailscale.md
     - Samba: samba.md
-    - Mac Software: macsw.md
     - References: references.md
     
 markdown_extensions:
