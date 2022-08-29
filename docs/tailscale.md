@@ -21,9 +21,9 @@ This machine can also be accessed by its hostname through Tailscale's private DN
 
 ### Raspberry Pi
 
-'Advertise routes' to provide access to the appleshare devices on this network and 'accept routes' to forward requests through the tailscale VPN to other remote devices
+'Advertise routes' to provide access to each appleshare device (the raspberry pi afpd server and each mac) on this network and 'accept routes' to forward requests through the tailscale VPN to other remote devices
 
-    sudo tailscale up --advertise-routes=192.168.0.0/24 --accept-routes
+    sudo tailscale up --advertise-routes=192.168.0.241/32,192.168.0.250/32 --accept-routes
 
 ### Tailscale.com account
 
