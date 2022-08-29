@@ -117,8 +117,8 @@ download instructions</a></p>
 <p><img alt="screenshot" src="../img/tailscale4.png" /></p>
 <h2 id="enable-subnets">Enable Subnets</h2>
 <h3 id="raspberry-pi">Raspberry Pi</h3>
-<p>'Advertise routes' to provide access to the appleshare devices on this network and 'accept routes' to forward requests through the tailscale VPN to other remote devices</p>
-<pre><code>sudo tailscale up --advertise-routes=192.168.0.0/24 --accept-routes
+<p>'Advertise routes' to provide access to each appleshare device (the raspberry pi afpd server and each mac) on this network and 'accept routes' to forward requests through the tailscale VPN to other remote devices</p>
+<pre><code>sudo tailscale up --advertise-routes=192.168.0.241/32,192.168.0.250/32 --accept-routes
 </code></pre>
 <h3 id="tailscalecom-account">Tailscale.com account</h3>
 <p>Select "Edit route settings" from the '3dots' menu on the right column and enable Subnet routes for this device</p>
